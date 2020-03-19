@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
     width: 1080px;
     margin: auto;
     height: 100%;
-    background-color: black;
 }
 
 .container::after {
@@ -31,8 +31,27 @@
 
 #header-top-left {
     width: 50%;
-    height: 100%;
     float: left;
+}
+
+#header-top-left a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    line-height: 80px;
+    padding: 20px;
+}
+
+#header-top-left a i {
+    font-size: 25px;
+    padding-right: 5px;
+    position: relative;
+    top: 5px;
+    color: rgba(0, 0, 0, 0.3)
+}
+#header-top-left #lingua {
+    padding: 5px 20px 5px 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 #header-top-right {
@@ -57,4 +76,8 @@
 footer {
     background-color: darkblue;
     height: 300px;
+}
+
+.fa-globe-europe {
+    color: #32475a;
 }
