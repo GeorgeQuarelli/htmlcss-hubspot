@@ -99,12 +99,30 @@
 }
 
 #header-bottom-left {
-    width: 50%;
+    width: 30%;
     float: left;
 }
 
 #header-bottom-left img {
     margin-top: 29px;
+}
+
+#header-bottom-right {
+    width: 70%;
+    float: left;
+}
+
+#header-bottom-right ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 26px;
+}
+
+#header-bottom-right li {
+    line-height: 84px;
+    padding-left: 60px;
+    display: inline-block;
+
 }
 
 
