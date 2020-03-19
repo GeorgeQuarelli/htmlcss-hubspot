@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 1080px;
+    margin: auto;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.container::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+#header-top {
+    height: 120px;
+    background-color: grey;
+}
+
+#header-top-left {
+    width: 50%;
+    height: 100%;
+    
+}
