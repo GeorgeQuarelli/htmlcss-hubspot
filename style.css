@@ -57,21 +57,40 @@
 #header-top-right {
     width: 50%;
     height: 100%;
+    text-align: right;
     float: left;
 }
 
 #header-top-right a {
     text-decoration: none;
     font-size: 13px;
-    line-height: 100px;
+    line-height: 80px;
+    margin-right: 10px;
 }
 
 #header-top-right i {
-    font-size: 22px;
+    font-size: 18px;
     padding-right: 20px;
     position: relative;
     top: 5px;
-    color: rgba(0, 0, 0, 0.3)
+    color: #00a4bd;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid #ff7a59;
+    padding: 11px 33px;
+    color: #ff7a59;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.main_btn {
+    background-color: #ff7a59;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 #header-bottom {
