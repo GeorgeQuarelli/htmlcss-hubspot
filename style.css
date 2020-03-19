@@ -70,7 +70,7 @@
     height: 746px;
     box-shadow: inset 1px 7px 17px -4px rgba(0,0,0,0.09);
     background-image: url(img/jumbo.png);
-    background-size: auto;
+    background-size: contain;
 }
 
 footer {
