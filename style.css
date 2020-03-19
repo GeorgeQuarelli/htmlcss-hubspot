@@ -31,5 +31,15 @@
 #header-top-left {
     width: 50%;
     height: 100%;
-    
+
+}
+
+#features {
+    background-color: lightcoral;
+    height: 500px;
+}
+
+footer {
+    background-color: darkblue;
+    height: 300px;
 }
