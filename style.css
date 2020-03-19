@@ -112,6 +112,10 @@
     float: left;
 }
 
+#header-bottom-right i {
+    padding-left: 10px;
+}
+
 #header-bottom-right ul {
     list-style: none;
     text-align: right;
@@ -119,10 +123,17 @@
 }
 
 #header-bottom-right li {
-    line-height: 84px;
-    padding-left: 60px;
+    line-height: 89px;
     display: inline-block;
 
+}
+
+#header-bottom-right a {
+    text-decoration: none;
+    color: #33475b;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 43px;
 }
 
 
