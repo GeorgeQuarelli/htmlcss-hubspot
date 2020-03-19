@@ -98,6 +98,16 @@
     background-color: #ffffff;
 }
 
+#header-bottom-left {
+    width: 50%;
+    float: left;
+}
+
+#header-bottom-left img {
+    margin-top: 29px;
+}
+
+
 #features {
     background-color: #fff1ee;
     height: 746px;
