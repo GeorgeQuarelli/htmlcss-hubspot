@@ -142,8 +142,9 @@
     background-color: #fff1ee;
     height: 746px;
     box-shadow: inset 1px 7px 17px -4px rgba(0,0,0,0.09);
-    background-image: url(img/jumbo.png);
+    background-image: url(img/jumbo_class.png);
     background-size: cover;
+    border-bottom: 3px solid #33475b;
 }
 
 #features_main {
