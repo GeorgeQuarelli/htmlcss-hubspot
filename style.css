@@ -214,6 +214,7 @@
     border-radius: 2%;
     margin-top: 100px;
     width: 65%;
+    height: 280px;
     background-color: white;
     float: left;
 }
@@ -253,6 +254,42 @@
     margin-left: 205px;
 }
 
+#list_count {
+    float: left;
+    width: 55%;
+}
+
+#list_count2 {
+    float: left;
+    width: 45%;
+}
+
+#list_count i {
+    color: #ff7a59;
+    padding-right: 5px;
+}
+
+#list_count ul {
+    list-style: none;
+    margin-left: 35px;
+}
+
+#list_count li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.list_btn {
+    margin-right: 20px;
+    line-height: 30px;
+    background-color: #ff7a59;
+    padding: 15px 86px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 footer {
     background-color: darkblue;
