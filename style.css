@@ -262,12 +262,12 @@
 
 #list_count {
     float: left;
-    width: 55%;
+    width: 45%;
 }
 
 #list_count2 {
     float: left;
-    width: 45%;
+    width: 55%;
 }
 
 #list_count i {
@@ -287,6 +287,7 @@
 }
 
 .list_btn {
+    margin-left: 59px;
     margin-right: 20px;
     line-height: 30px;
     background-color: #ff7a59;
