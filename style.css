@@ -478,10 +478,116 @@
 }
 
 #box-gradient {
-    height: 500px;
+    height: 1000px;
     background: rgb(0,166,187);
     background: linear-gradient(90deg, rgba(0,166,187,1) 0%, rgba(0,188,165,1) 100%);
 }
+
+#gradient-box {
+    width: 65%;
+    margin: auto;
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+#gradient-box h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#gradient-box p {
+    line-height: 28px;
+}
+
+#table-white {
+    color: white;
+    text-align: center;
+}
+
+.table {
+    margin-top: 100px;
+    width: 24%;
+    height: 200px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.table img {
+    margin-bottom: 10px;
+}
+
+.table h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.table p {
+    padding-bottom: 10px;
+}
+
+.table2 {
+    width: 24%;
+    height: 200px;
+    border-right: 1px solid white;
+    float: left;
+}
+
+.table2 img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.table2 h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.table2 p {
+    padding-bottom: 10px;
+}
+.table3 {
+    margin-top: 100px;
+    width: 24%;
+    height: 200px;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.table3 img {
+    margin-bottom: 10px;
+}
+
+.table3 h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.table3 p {
+    padding-bottom: 10px;
+}
+
+.table-nude {
+    width: 24%;
+    height: 200px;
+    float: left;
+}
+
+.table-nude img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.table-nude h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.table-nude p {
+    padding-bottom: 10px;
+}
+
 
 footer {
     background-color: darkblue;
