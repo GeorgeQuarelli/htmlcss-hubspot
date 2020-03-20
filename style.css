@@ -291,6 +291,35 @@
     text-decoration: none;
 }
 
+#box1 {
+    border-radius: 2%;
+    margin-top: 50px;
+    width: 32%;
+    height: 280px;
+    background-color: white;
+    float: left;
+}
+
+#box2 {
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 32%;
+    height: 280px;
+    background-color: white;
+    float: left;
+}
+
+#box3 {
+    border-radius: 2%;
+    margin-top: 50px;
+    width: 32%;
+    height: 280px;
+    background-color: white;
+    float: left;
+}
+
 footer {
     background-color: darkblue;
     height: 300px;
